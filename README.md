@@ -1,5 +1,5 @@
 # documet-classification
-#### Transfer Learning using pretrained word embeddings for document classification.
+### Transfer Learning using pretrained word embeddings for document classification.
 
 This example uses Embeddings for text classification depending on three main components: first, loading the pretrained word embeddings, then, finetuning these pretrained embeddings by classifying entire news articles, and finally, using a convolutional neural network to capture the spatial relationships between words.
 Here I used the AG News dataset. To model the sequences of words in AG News, I used a SequenceVocabulary class, to bundle several tokens vital for modeling sequences. The Vectorizer class demonstrates how to use this class.
